@@ -1,5 +1,6 @@
 {
   "name": "tabline-workspace",
+  "license": "MIT",
   "private": true,
   "workspaces": ["sdk", "app"]
 }

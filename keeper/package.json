@@ -1,5 +1,6 @@
 {
   "name": "tabline-keeper",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "scripts": {
