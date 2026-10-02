@@ -3,12 +3,13 @@
   "license": "MIT",
   "private": true,
   "type": "module",
+  "engines": { "node": ">=22.9.0" },
   "scripts": {
     "abi": "node scripts/gen-abi.mjs",
     "build": "esbuild src/index.ts --bundle --platform=node --format=esm --packages=external --outfile=dist/index.js",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "start": "npm run build && node --env-file=.env dist/index.js"
+    "start": "npm run build && node --env-file-if-exists=.env dist/index.js"
   },
   "dependencies": {
     "@metamask/smart-accounts-kit": "latest",
