@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabline spike</title>
+    <style>
+      body { font: 14px/1.5 system-ui, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; }
+      label { display: block; margin: .75rem 0 .25rem; font-weight: 600; }
+      input, select { width: 100%; padding: .5rem; box-sizing: border-box; }
+      button { margin: .75rem .5rem 0 0; padding: .55rem 1rem; cursor: pointer; }
+      pre { background: #111; color: #9fe; padding: 1rem; height: 320px; overflow: auto; white-space: pre-wrap; }
+    </style>
+  </head>
+  <body>
+    <h1>Tabline spike</h1>
+    <p>Step 1: check support. Step 2: grant a periodic USDC permission to your keeper address. Step 3: download grant.json.</p>
+
+    <label for="network">Network</label>
+    <select id="network">
+      <option value="arbitrumSepolia">Arbitrum Sepolia (testnet)</option>
+      <option value="arbitrum">Arbitrum One (mainnet, real funds)</option>
+    </select>
+
+    <label for="session">Keeper / session account address (the delegate)</label>
+    <input id="session" placeholder="0x... (the address printed by the keeper script)" />
+
+    <label for="amount">Amount per period (USDC)</label>
+    <input id="amount" value="1" />
+
+    <label for="period">Period (seconds)</label>
+    <input id="period" value="86400" />
+
+    <button id="btn-supported">1. Check supported permissions</button>
+    <button id="btn-grant">2. Request permission</button>
+    <button id="btn-download" disabled>3. Download grant.json</button>
+
+    <pre id="log"></pre>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+node_modules
+dist
+out
+cache
+broadcast
+.env
+spike/grant.json
+
+
+
+node_modules
+.next
+next-env.d.ts
+tsconfig.tsbuildinfo
+.env
+.env.local

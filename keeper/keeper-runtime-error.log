@@ -1,0 +1,2580 @@
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+unhandled: ContractFunctionExecutionError: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+    at getContractError (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/errors/getContractError.js:34:12)
+    at readContract (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/readContract.js:58:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Chain.readPlan (file:///C:/Users/user/Tabline/keeper/dist/index.js:1019:15)
+    at async route (file:///C:/Users/user/Tabline/keeper/dist/index.js:395:55) {
+  cause: CallExecutionError: HTTP request failed.
+  
+  URL: https://sepolia-rollup.arbitrum.io/rpc
+  Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+   
+  Raw Call Arguments:
+    to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+    data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+  
+  Details: fetch failed
+  Version: viem@2.56.8
+      at getCallError (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/errors/getCallError.js:11:12)
+      at call (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/call.js:175:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async readContract (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/readContract.js:45:26)
+      at async Chain.readPlan (file:///C:/Users/user/Tabline/keeper/dist/index.js:1019:15)
+      at async route (file:///C:/Users/user/Tabline/keeper/dist/index.js:395:55) {
+    cause: HttpRequestError: HTTP request failed.
+    
+    URL: https://sepolia-rollup.arbitrum.io/rpc
+    Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+    
+    Details: fetch failed
+    Version: viem@2.56.8
+        at Object.request (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/rpc/http.js:96:23)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async fn (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/clients/transports/http.js:64:25)
+        at async request (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/clients/transports/http.js:69:45)
+        at async withRetry.delay.count.count (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/buildRequest.js:30:24)
+        at async attemptRetry (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/promise/withRetry.js:24:30) {
+      details: 'fetch failed',
+      docsPath: undefined,
+      metaMessages: [Array],
+      shortMessage: 'HTTP request failed.',
+      version: '2.56.8',
+      body: [Object],
+      headers: undefined,
+      status: undefined,
+      url: 'https://sepolia-rollup.arbitrum.io/rpc',
+      [cause]: [TypeError]
+    },
+    details: 'fetch failed',
+    docsPath: undefined,
+    metaMessages: [
+      'URL: https://sepolia-rollup.arbitrum.io/rpc',
+      'Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}',
+      ' ',
+      'Raw Call Arguments:',
+      '  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+        '  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004'
+    ],
+    shortMessage: 'HTTP request failed.',
+    version: '2.56.8'
+  },
+  details: 'fetch failed',
+  docsPath: '/docs/contract/readContract',
+  metaMessages: [
+    'URL: https://sepolia-rollup.arbitrum.io/rpc',
+    'Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}',
+    ' ',
+    'Raw Call Arguments:',
+    '  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+      '  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004',
+    ' ',
+    'Contract Call:',
+    '  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+      '  function:  plans(uint256 planId)\n' +
+      '  args:           (4)'
+  ],
+  shortMessage: 'HTTP request failed.',
+  version: '2.56.8',
+  abi: [
+    {
+      type: 'function',
+      name: 'MIN_PERIOD',
+      inputs: [],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'cancel',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'createPlan',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'isDue',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'planCount',
+      inputs: [],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'plans',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'resume',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setActive',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setKeeper',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setPayout',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'settle',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'settled',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'snapshot',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'subscriptions',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'event',
+      name: 'Cancelled',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'Charged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'KeeperChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PayoutChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PlanActiveChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PlanCreated',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'Resumed',
+      inputs: [Array],
+      anonymous: false
+    },
+    { type: 'error', name: 'AlreadySettled', inputs: [] },
+    { type: 'error', name: 'InvalidParams', inputs: [] },
+    { type: 'error', name: 'NoSnapshot', inputs: [] },
+    { type: 'error', name: 'NotDue', inputs: [Array] },
+    { type: 'error', name: 'NotMerchant', inputs: [] },
+    { type: 'error', name: 'NotOperator', inputs: [] },
+    { type: 'error', name: 'PaymentNotReceived', inputs: [] },
+    { type: 'error', name: 'PlanInactive', inputs: [] },
+    { type: 'error', name: 'SubscriptionCancelled', inputs: [] },
+    { type: 'error', name: 'UnknownPlan', inputs: [] },
+    { type: 'error', name: 'WrongAmount', inputs: [] }
+  ],
+  args: [ 4n ],
+  contractAddress: '0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062',
+  formattedArgs: undefined,
+  functionName: 'plans',
+  sender: undefined
+}
+unhandled: ContractFunctionExecutionError: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+    at getContractError (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/errors/getContractError.js:34:12)
+    at readContract (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/readContract.js:58:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Chain.readPlan (file:///C:/Users/user/Tabline/keeper/dist/index.js:1019:15)
+    at async route (file:///C:/Users/user/Tabline/keeper/dist/index.js:395:55) {
+  cause: CallExecutionError: HTTP request failed.
+  
+  URL: https://sepolia-rollup.arbitrum.io/rpc
+  Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+   
+  Raw Call Arguments:
+    to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+    data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+  
+  Details: fetch failed
+  Version: viem@2.56.8
+      at getCallError (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/errors/getCallError.js:11:12)
+      at call (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/call.js:175:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async readContract (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/readContract.js:45:26)
+      at async Chain.readPlan (file:///C:/Users/user/Tabline/keeper/dist/index.js:1019:15)
+      at async route (file:///C:/Users/user/Tabline/keeper/dist/index.js:395:55) {
+    cause: HttpRequestError: HTTP request failed.
+    
+    URL: https://sepolia-rollup.arbitrum.io/rpc
+    Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+    
+    Details: fetch failed
+    Version: viem@2.56.8
+        at Object.request (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/rpc/http.js:96:23)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async fn (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/clients/transports/http.js:64:25)
+        at async request (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/clients/transports/http.js:69:45)
+        at async withRetry.delay.count.count (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/buildRequest.js:30:24)
+        at async attemptRetry (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/promise/withRetry.js:24:30) {
+      details: 'fetch failed',
+      docsPath: undefined,
+      metaMessages: [Array],
+      shortMessage: 'HTTP request failed.',
+      version: '2.56.8',
+      body: [Object],
+      headers: undefined,
+      status: undefined,
+      url: 'https://sepolia-rollup.arbitrum.io/rpc',
+      [cause]: [TypeError]
+    },
+    details: 'fetch failed',
+    docsPath: undefined,
+    metaMessages: [
+      'URL: https://sepolia-rollup.arbitrum.io/rpc',
+      'Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}',
+      ' ',
+      'Raw Call Arguments:',
+      '  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+        '  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004'
+    ],
+    shortMessage: 'HTTP request failed.',
+    version: '2.56.8'
+  },
+  details: 'fetch failed',
+  docsPath: '/docs/contract/readContract',
+  metaMessages: [
+    'URL: https://sepolia-rollup.arbitrum.io/rpc',
+    'Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}',
+    ' ',
+    'Raw Call Arguments:',
+    '  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+      '  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004',
+    ' ',
+    'Contract Call:',
+    '  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+      '  function:  plans(uint256 planId)\n' +
+      '  args:           (4)'
+  ],
+  shortMessage: 'HTTP request failed.',
+  version: '2.56.8',
+  abi: [
+    {
+      type: 'function',
+      name: 'MIN_PERIOD',
+      inputs: [],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'cancel',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'createPlan',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'isDue',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'planCount',
+      inputs: [],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'plans',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'resume',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setActive',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setKeeper',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setPayout',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'settle',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'settled',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'snapshot',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'subscriptions',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'event',
+      name: 'Cancelled',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'Charged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'KeeperChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PayoutChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PlanActiveChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PlanCreated',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'Resumed',
+      inputs: [Array],
+      anonymous: false
+    },
+    { type: 'error', name: 'AlreadySettled', inputs: [] },
+    { type: 'error', name: 'InvalidParams', inputs: [] },
+    { type: 'error', name: 'NoSnapshot', inputs: [] },
+    { type: 'error', name: 'NotDue', inputs: [Array] },
+    { type: 'error', name: 'NotMerchant', inputs: [] },
+    { type: 'error', name: 'NotOperator', inputs: [] },
+    { type: 'error', name: 'PaymentNotReceived', inputs: [] },
+    { type: 'error', name: 'PlanInactive', inputs: [] },
+    { type: 'error', name: 'SubscriptionCancelled', inputs: [] },
+    { type: 'error', name: 'UnknownPlan', inputs: [] },
+    { type: 'error', name: 'WrongAmount', inputs: [] }
+  ],
+  args: [ 4n ],
+  contractAddress: '0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062',
+  formattedArgs: undefined,
+  functionName: 'plans',
+  sender: undefined
+}
+unhandled: ContractFunctionExecutionError: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+    at getContractError (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/errors/getContractError.js:34:12)
+    at readContract (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/readContract.js:58:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Chain.readPlan (file:///C:/Users/user/Tabline/keeper/dist/index.js:1019:15)
+    at async route (file:///C:/Users/user/Tabline/keeper/dist/index.js:395:55) {
+  cause: CallExecutionError: HTTP request failed.
+  
+  URL: https://sepolia-rollup.arbitrum.io/rpc
+  Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+   
+  Raw Call Arguments:
+    to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+    data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+  
+  Details: fetch failed
+  Version: viem@2.56.8
+      at getCallError (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/errors/getCallError.js:11:12)
+      at call (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/call.js:175:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async readContract (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/readContract.js:45:26)
+      at async Chain.readPlan (file:///C:/Users/user/Tabline/keeper/dist/index.js:1019:15)
+      at async route (file:///C:/Users/user/Tabline/keeper/dist/index.js:395:55) {
+    cause: HttpRequestError: HTTP request failed.
+    
+    URL: https://sepolia-rollup.arbitrum.io/rpc
+    Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+    
+    Details: fetch failed
+    Version: viem@2.56.8
+        at Object.request (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/rpc/http.js:96:23)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async fn (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/clients/transports/http.js:64:25)
+        at async request (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/clients/transports/http.js:69:45)
+        at async withRetry.delay.count.count (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/buildRequest.js:30:24)
+        at async attemptRetry (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/promise/withRetry.js:24:30) {
+      details: 'fetch failed',
+      docsPath: undefined,
+      metaMessages: [Array],
+      shortMessage: 'HTTP request failed.',
+      version: '2.56.8',
+      body: [Object],
+      headers: undefined,
+      status: undefined,
+      url: 'https://sepolia-rollup.arbitrum.io/rpc',
+      [cause]: [TypeError]
+    },
+    details: 'fetch failed',
+    docsPath: undefined,
+    metaMessages: [
+      'URL: https://sepolia-rollup.arbitrum.io/rpc',
+      'Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}',
+      ' ',
+      'Raw Call Arguments:',
+      '  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+        '  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004'
+    ],
+    shortMessage: 'HTTP request failed.',
+    version: '2.56.8'
+  },
+  details: 'fetch failed',
+  docsPath: '/docs/contract/readContract',
+  metaMessages: [
+    'URL: https://sepolia-rollup.arbitrum.io/rpc',
+    'Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}',
+    ' ',
+    'Raw Call Arguments:',
+    '  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+      '  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004',
+    ' ',
+    'Contract Call:',
+    '  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+      '  function:  plans(uint256 planId)\n' +
+      '  args:           (4)'
+  ],
+  shortMessage: 'HTTP request failed.',
+  version: '2.56.8',
+  abi: [
+    {
+      type: 'function',
+      name: 'MIN_PERIOD',
+      inputs: [],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'cancel',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'createPlan',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'isDue',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'planCount',
+      inputs: [],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'plans',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'resume',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setActive',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setKeeper',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setPayout',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'settle',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'settled',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'snapshot',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'subscriptions',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'event',
+      name: 'Cancelled',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'Charged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'KeeperChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PayoutChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PlanActiveChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PlanCreated',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'Resumed',
+      inputs: [Array],
+      anonymous: false
+    },
+    { type: 'error', name: 'AlreadySettled', inputs: [] },
+    { type: 'error', name: 'InvalidParams', inputs: [] },
+    { type: 'error', name: 'NoSnapshot', inputs: [] },
+    { type: 'error', name: 'NotDue', inputs: [Array] },
+    { type: 'error', name: 'NotMerchant', inputs: [] },
+    { type: 'error', name: 'NotOperator', inputs: [] },
+    { type: 'error', name: 'PaymentNotReceived', inputs: [] },
+    { type: 'error', name: 'PlanInactive', inputs: [] },
+    { type: 'error', name: 'SubscriptionCancelled', inputs: [] },
+    { type: 'error', name: 'UnknownPlan', inputs: [] },
+    { type: 'error', name: 'WrongAmount', inputs: [] }
+  ],
+  args: [ 4n ],
+  contractAddress: '0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062',
+  formattedArgs: undefined,
+  functionName: 'plans',
+  sender: undefined
+}
+unhandled: ContractFunctionExecutionError: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+    at getContractError (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/errors/getContractError.js:34:12)
+    at readContract (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/readContract.js:58:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Chain.readPlan (file:///C:/Users/user/Tabline/keeper/dist/index.js:1019:15)
+    at async route (file:///C:/Users/user/Tabline/keeper/dist/index.js:395:55) {
+  cause: CallExecutionError: HTTP request failed.
+  
+  URL: https://sepolia-rollup.arbitrum.io/rpc
+  Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+   
+  Raw Call Arguments:
+    to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+    data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+  
+  Details: fetch failed
+  Version: viem@2.56.8
+      at getCallError (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/errors/getCallError.js:11:12)
+      at call (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/call.js:175:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async readContract (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/readContract.js:45:26)
+      at async Chain.readPlan (file:///C:/Users/user/Tabline/keeper/dist/index.js:1019:15)
+      at async route (file:///C:/Users/user/Tabline/keeper/dist/index.js:395:55) {
+    cause: HttpRequestError: HTTP request failed.
+    
+    URL: https://sepolia-rollup.arbitrum.io/rpc
+    Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+    
+    Details: fetch failed
+    Version: viem@2.56.8
+        at Object.request (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/rpc/http.js:96:23)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async fn (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/clients/transports/http.js:64:25)
+        at async request (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/clients/transports/http.js:69:45)
+        at async withRetry.delay.count.count (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/buildRequest.js:30:24)
+        at async attemptRetry (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/promise/withRetry.js:24:30) {
+      details: 'fetch failed',
+      docsPath: undefined,
+      metaMessages: [Array],
+      shortMessage: 'HTTP request failed.',
+      version: '2.56.8',
+      body: [Object],
+      headers: undefined,
+      status: undefined,
+      url: 'https://sepolia-rollup.arbitrum.io/rpc',
+      [cause]: [TypeError]
+    },
+    details: 'fetch failed',
+    docsPath: undefined,
+    metaMessages: [
+      'URL: https://sepolia-rollup.arbitrum.io/rpc',
+      'Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}',
+      ' ',
+      'Raw Call Arguments:',
+      '  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+        '  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004'
+    ],
+    shortMessage: 'HTTP request failed.',
+    version: '2.56.8'
+  },
+  details: 'fetch failed',
+  docsPath: '/docs/contract/readContract',
+  metaMessages: [
+    'URL: https://sepolia-rollup.arbitrum.io/rpc',
+    'Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}',
+    ' ',
+    'Raw Call Arguments:',
+    '  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+      '  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004',
+    ' ',
+    'Contract Call:',
+    '  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+      '  function:  plans(uint256 planId)\n' +
+      '  args:           (4)'
+  ],
+  shortMessage: 'HTTP request failed.',
+  version: '2.56.8',
+  abi: [
+    {
+      type: 'function',
+      name: 'MIN_PERIOD',
+      inputs: [],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'cancel',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'createPlan',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'isDue',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'planCount',
+      inputs: [],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'plans',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'resume',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setActive',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setKeeper',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setPayout',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'settle',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'settled',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'snapshot',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'subscriptions',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'event',
+      name: 'Cancelled',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'Charged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'KeeperChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PayoutChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PlanActiveChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PlanCreated',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'Resumed',
+      inputs: [Array],
+      anonymous: false
+    },
+    { type: 'error', name: 'AlreadySettled', inputs: [] },
+    { type: 'error', name: 'InvalidParams', inputs: [] },
+    { type: 'error', name: 'NoSnapshot', inputs: [] },
+    { type: 'error', name: 'NotDue', inputs: [Array] },
+    { type: 'error', name: 'NotMerchant', inputs: [] },
+    { type: 'error', name: 'NotOperator', inputs: [] },
+    { type: 'error', name: 'PaymentNotReceived', inputs: [] },
+    { type: 'error', name: 'PlanInactive', inputs: [] },
+    { type: 'error', name: 'SubscriptionCancelled', inputs: [] },
+    { type: 'error', name: 'UnknownPlan', inputs: [] },
+    { type: 'error', name: 'WrongAmount', inputs: [] }
+  ],
+  args: [ 4n ],
+  contractAddress: '0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062',
+  formattedArgs: undefined,
+  functionName: 'plans',
+  sender: undefined
+}
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+unhandled: ContractFunctionExecutionError: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+    at getContractError (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/errors/getContractError.js:34:12)
+    at readContract (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/readContract.js:58:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Chain.readPlan (file:///C:/Users/user/Tabline/keeper/dist/index.js:1019:15)
+    at async route (file:///C:/Users/user/Tabline/keeper/dist/index.js:395:55) {
+  cause: CallExecutionError: HTTP request failed.
+  
+  URL: https://sepolia-rollup.arbitrum.io/rpc
+  Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+   
+  Raw Call Arguments:
+    to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+    data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+  
+  Details: fetch failed
+  Version: viem@2.56.8
+      at getCallError (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/errors/getCallError.js:11:12)
+      at call (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/call.js:175:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async readContract (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/readContract.js:45:26)
+      at async Chain.readPlan (file:///C:/Users/user/Tabline/keeper/dist/index.js:1019:15)
+      at async route (file:///C:/Users/user/Tabline/keeper/dist/index.js:395:55) {
+    cause: HttpRequestError: HTTP request failed.
+    
+    URL: https://sepolia-rollup.arbitrum.io/rpc
+    Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+    
+    Details: fetch failed
+    Version: viem@2.56.8
+        at Object.request (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/rpc/http.js:96:23)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async fn (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/clients/transports/http.js:64:25)
+        at async request (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/clients/transports/http.js:69:45)
+        at async withRetry.delay.count.count (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/buildRequest.js:30:24)
+        at async attemptRetry (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/promise/withRetry.js:24:30) {
+      details: 'fetch failed',
+      docsPath: undefined,
+      metaMessages: [Array],
+      shortMessage: 'HTTP request failed.',
+      version: '2.56.8',
+      body: [Object],
+      headers: undefined,
+      status: undefined,
+      url: 'https://sepolia-rollup.arbitrum.io/rpc',
+      [cause]: [TypeError]
+    },
+    details: 'fetch failed',
+    docsPath: undefined,
+    metaMessages: [
+      'URL: https://sepolia-rollup.arbitrum.io/rpc',
+      'Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}',
+      ' ',
+      'Raw Call Arguments:',
+      '  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+        '  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004'
+    ],
+    shortMessage: 'HTTP request failed.',
+    version: '2.56.8'
+  },
+  details: 'fetch failed',
+  docsPath: '/docs/contract/readContract',
+  metaMessages: [
+    'URL: https://sepolia-rollup.arbitrum.io/rpc',
+    'Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}',
+    ' ',
+    'Raw Call Arguments:',
+    '  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+      '  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004',
+    ' ',
+    'Contract Call:',
+    '  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+      '  function:  plans(uint256 planId)\n' +
+      '  args:           (4)'
+  ],
+  shortMessage: 'HTTP request failed.',
+  version: '2.56.8',
+  abi: [
+    {
+      type: 'function',
+      name: 'MIN_PERIOD',
+      inputs: [],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'cancel',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'createPlan',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'isDue',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'planCount',
+      inputs: [],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'plans',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'resume',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setActive',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setKeeper',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setPayout',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'settle',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'settled',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'snapshot',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'subscriptions',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'event',
+      name: 'Cancelled',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'Charged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'KeeperChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PayoutChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PlanActiveChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PlanCreated',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'Resumed',
+      inputs: [Array],
+      anonymous: false
+    },
+    { type: 'error', name: 'AlreadySettled', inputs: [] },
+    { type: 'error', name: 'InvalidParams', inputs: [] },
+    { type: 'error', name: 'NoSnapshot', inputs: [] },
+    { type: 'error', name: 'NotDue', inputs: [Array] },
+    { type: 'error', name: 'NotMerchant', inputs: [] },
+    { type: 'error', name: 'NotOperator', inputs: [] },
+    { type: 'error', name: 'PaymentNotReceived', inputs: [] },
+    { type: 'error', name: 'PlanInactive', inputs: [] },
+    { type: 'error', name: 'SubscriptionCancelled', inputs: [] },
+    { type: 'error', name: 'UnknownPlan', inputs: [] },
+    { type: 'error', name: 'WrongAmount', inputs: [] }
+  ],
+  args: [ 4n ],
+  contractAddress: '0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062',
+  formattedArgs: undefined,
+  functionName: 'plans',
+  sender: undefined
+}
+unhandled: ContractFunctionExecutionError: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+    at getContractError (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/errors/getContractError.js:34:12)
+    at readContract (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/readContract.js:58:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Chain.readPlan (file:///C:/Users/user/Tabline/keeper/dist/index.js:1019:15)
+    at async route (file:///C:/Users/user/Tabline/keeper/dist/index.js:395:55) {
+  cause: CallExecutionError: HTTP request failed.
+  
+  URL: https://sepolia-rollup.arbitrum.io/rpc
+  Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+   
+  Raw Call Arguments:
+    to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+    data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+  
+  Details: fetch failed
+  Version: viem@2.56.8
+      at getCallError (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/errors/getCallError.js:11:12)
+      at call (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/call.js:175:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async readContract (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/readContract.js:45:26)
+      at async Chain.readPlan (file:///C:/Users/user/Tabline/keeper/dist/index.js:1019:15)
+      at async route (file:///C:/Users/user/Tabline/keeper/dist/index.js:395:55) {
+    cause: HttpRequestError: HTTP request failed.
+    
+    URL: https://sepolia-rollup.arbitrum.io/rpc
+    Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+    
+    Details: fetch failed
+    Version: viem@2.56.8
+        at Object.request (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/rpc/http.js:96:23)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async fn (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/clients/transports/http.js:64:25)
+        at async request (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/clients/transports/http.js:69:45)
+        at async withRetry.delay.count.count (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/buildRequest.js:30:24)
+        at async attemptRetry (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/promise/withRetry.js:24:30) {
+      details: 'fetch failed',
+      docsPath: undefined,
+      metaMessages: [Array],
+      shortMessage: 'HTTP request failed.',
+      version: '2.56.8',
+      body: [Object],
+      headers: undefined,
+      status: undefined,
+      url: 'https://sepolia-rollup.arbitrum.io/rpc',
+      [cause]: [TypeError]
+    },
+    details: 'fetch failed',
+    docsPath: undefined,
+    metaMessages: [
+      'URL: https://sepolia-rollup.arbitrum.io/rpc',
+      'Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}',
+      ' ',
+      'Raw Call Arguments:',
+      '  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+        '  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004'
+    ],
+    shortMessage: 'HTTP request failed.',
+    version: '2.56.8'
+  },
+  details: 'fetch failed',
+  docsPath: '/docs/contract/readContract',
+  metaMessages: [
+    'URL: https://sepolia-rollup.arbitrum.io/rpc',
+    'Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}',
+    ' ',
+    'Raw Call Arguments:',
+    '  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+      '  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004',
+    ' ',
+    'Contract Call:',
+    '  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+      '  function:  plans(uint256 planId)\n' +
+      '  args:           (4)'
+  ],
+  shortMessage: 'HTTP request failed.',
+  version: '2.56.8',
+  abi: [
+    {
+      type: 'function',
+      name: 'MIN_PERIOD',
+      inputs: [],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'cancel',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'createPlan',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'isDue',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'planCount',
+      inputs: [],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'plans',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'resume',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setActive',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setKeeper',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setPayout',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'settle',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'settled',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'snapshot',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'subscriptions',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'event',
+      name: 'Cancelled',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'Charged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'KeeperChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PayoutChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PlanActiveChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PlanCreated',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'Resumed',
+      inputs: [Array],
+      anonymous: false
+    },
+    { type: 'error', name: 'AlreadySettled', inputs: [] },
+    { type: 'error', name: 'InvalidParams', inputs: [] },
+    { type: 'error', name: 'NoSnapshot', inputs: [] },
+    { type: 'error', name: 'NotDue', inputs: [Array] },
+    { type: 'error', name: 'NotMerchant', inputs: [] },
+    { type: 'error', name: 'NotOperator', inputs: [] },
+    { type: 'error', name: 'PaymentNotReceived', inputs: [] },
+    { type: 'error', name: 'PlanInactive', inputs: [] },
+    { type: 'error', name: 'SubscriptionCancelled', inputs: [] },
+    { type: 'error', name: 'UnknownPlan', inputs: [] },
+    { type: 'error', name: 'WrongAmount', inputs: [] }
+  ],
+  args: [ 4n ],
+  contractAddress: '0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062',
+  formattedArgs: undefined,
+  functionName: 'plans',
+  sender: undefined
+}
+unhandled: ContractFunctionExecutionError: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+    at getContractError (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/errors/getContractError.js:34:12)
+    at readContract (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/readContract.js:58:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Chain.readPlan (file:///C:/Users/user/Tabline/keeper/dist/index.js:1019:15)
+    at async route (file:///C:/Users/user/Tabline/keeper/dist/index.js:395:55) {
+  cause: CallExecutionError: HTTP request failed.
+  
+  URL: https://sepolia-rollup.arbitrum.io/rpc
+  Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+   
+  Raw Call Arguments:
+    to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+    data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+  
+  Details: fetch failed
+  Version: viem@2.56.8
+      at getCallError (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/errors/getCallError.js:11:12)
+      at call (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/call.js:175:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async readContract (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/actions/public/readContract.js:45:26)
+      at async Chain.readPlan (file:///C:/Users/user/Tabline/keeper/dist/index.js:1019:15)
+      at async route (file:///C:/Users/user/Tabline/keeper/dist/index.js:395:55) {
+    cause: HttpRequestError: HTTP request failed.
+    
+    URL: https://sepolia-rollup.arbitrum.io/rpc
+    Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+    
+    Details: fetch failed
+    Version: viem@2.56.8
+        at Object.request (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/rpc/http.js:96:23)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async fn (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/clients/transports/http.js:64:25)
+        at async request (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/clients/transports/http.js:69:45)
+        at async withRetry.delay.count.count (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/buildRequest.js:30:24)
+        at async attemptRetry (file:///C:/Users/user/Tabline/keeper/node_modules/viem/_esm/utils/promise/withRetry.js:24:30) {
+      details: 'fetch failed',
+      docsPath: undefined,
+      metaMessages: [Array],
+      shortMessage: 'HTTP request failed.',
+      version: '2.56.8',
+      body: [Object],
+      headers: undefined,
+      status: undefined,
+      url: 'https://sepolia-rollup.arbitrum.io/rpc',
+      [cause]: [TypeError]
+    },
+    details: 'fetch failed',
+    docsPath: undefined,
+    metaMessages: [
+      'URL: https://sepolia-rollup.arbitrum.io/rpc',
+      'Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}',
+      ' ',
+      'Raw Call Arguments:',
+      '  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+        '  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004'
+    ],
+    shortMessage: 'HTTP request failed.',
+    version: '2.56.8'
+  },
+  details: 'fetch failed',
+  docsPath: '/docs/contract/readContract',
+  metaMessages: [
+    'URL: https://sepolia-rollup.arbitrum.io/rpc',
+    'Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}',
+    ' ',
+    'Raw Call Arguments:',
+    '  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+      '  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004',
+    ' ',
+    'Contract Call:',
+    '  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062\n' +
+      '  function:  plans(uint256 planId)\n' +
+      '  args:           (4)'
+  ],
+  shortMessage: 'HTTP request failed.',
+  version: '2.56.8',
+  abi: [
+    {
+      type: 'function',
+      name: 'MIN_PERIOD',
+      inputs: [],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'cancel',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'createPlan',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'isDue',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'planCount',
+      inputs: [],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'plans',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'resume',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setActive',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setKeeper',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'setPayout',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'settle',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'settled',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'function',
+      name: 'snapshot',
+      inputs: [Array],
+      outputs: [],
+      stateMutability: 'nonpayable'
+    },
+    {
+      type: 'function',
+      name: 'subscriptions',
+      inputs: [Array],
+      outputs: [Array],
+      stateMutability: 'view'
+    },
+    {
+      type: 'event',
+      name: 'Cancelled',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'Charged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'KeeperChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PayoutChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PlanActiveChanged',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'PlanCreated',
+      inputs: [Array],
+      anonymous: false
+    },
+    {
+      type: 'event',
+      name: 'Resumed',
+      inputs: [Array],
+      anonymous: false
+    },
+    { type: 'error', name: 'AlreadySettled', inputs: [] },
+    { type: 'error', name: 'InvalidParams', inputs: [] },
+    { type: 'error', name: 'NoSnapshot', inputs: [] },
+    { type: 'error', name: 'NotDue', inputs: [Array] },
+    { type: 'error', name: 'NotMerchant', inputs: [] },
+    { type: 'error', name: 'NotOperator', inputs: [] },
+    { type: 'error', name: 'PaymentNotReceived', inputs: [] },
+    { type: 'error', name: 'PlanInactive', inputs: [] },
+    { type: 'error', name: 'SubscriptionCancelled', inputs: [] },
+    { type: 'error', name: 'UnknownPlan', inputs: [] },
+    { type: 'error', name: 'WrongAmount', inputs: [] }
+  ],
+  args: [ 4n ],
+  contractAddress: '0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062',
+  formattedArgs: undefined,
+  functionName: 'plans',
+  sender: undefined
+}
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_b266d5ec-107: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000004","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000004
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (4)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8
+engine: unexpected error on subscription sub_94f67f71-f6c: HTTP request failed.
+
+URL: https://sepolia-rollup.arbitrum.io/rpc
+Request body: {"method":"eth_call","params":[{"data":"0xb16206160000000000000000000000000000000000000000000000000000000000000005","to":"0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  data:  0xb16206160000000000000000000000000000000000000000000000000000000000000005
+ 
+Contract Call:
+  address:   0x8fBe070512cE91D8040397d1d8EDaFF3381Ef062
+  function:  plans(uint256 planId)
+  args:           (5)
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: fetch failed
+Version: viem@2.56.8

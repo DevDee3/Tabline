@@ -1,0 +1,5 @@
+{
+  "name": "tabline-workspace",
+  "private": true,
+  "workspaces": ["sdk", "app"]
+}
