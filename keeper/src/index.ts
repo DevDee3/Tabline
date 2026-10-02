@@ -54,7 +54,9 @@ async function main() {
       throw new Error("production keeper requires REDEEM_MODE=smart-account and BUNDLER_URL");
     }
     if (process.env.COOKIE_SECURE !== "true") throw new Error("production keeper requires COOKIE_SECURE=true");
-    if (!process.env.WEBHOOK_SECRET) throw new Error("production keeper requires WEBHOOK_SECRET");
+    if (process.env.WEBHOOK_URL && !process.env.WEBHOOK_SECRET) {
+      throw new Error("production keeper requires WEBHOOK_SECRET when WEBHOOK_URL is configured");
+    }
     if (!process.env.SESSION_SECRET || process.env.SESSION_SECRET.length < 32) throw new Error("production keeper requires SESSION_SECRET with at least 32 characters");
     if (!process.env.MERCHANT_ADDRESSES?.trim()) throw new Error("production keeper requires MERCHANT_ADDRESSES");
     if ((process.env.CORS_ORIGIN ?? "").includes("*")) throw new Error("production CORS_ORIGIN must list explicit origins");
