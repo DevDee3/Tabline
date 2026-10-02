@@ -46,8 +46,13 @@ async function main() {
   }
   const mode = requestedMode ?? (bundlerUrl ? "smart-account" : "eoa");
   if (process.env.NODE_ENV === "production") {
-    if (chainName !== "arbitrum") throw new Error("production keeper must use CHAIN=arbitrum");
-    if (mode !== "smart-account" || !bundlerUrl) throw new Error("production keeper requires REDEEM_MODE=smart-account and BUNDLER_URL");
+    const testnetDeployment = process.env.ALLOW_TESTNET_DEPLOYMENT === "true";
+    if (chainName !== "arbitrum" && !(testnetDeployment && chainName === "arbitrumSepolia")) {
+      throw new Error("production keeper must use CHAIN=arbitrum, or explicitly set ALLOW_TESTNET_DEPLOYMENT=true for Arbitrum Sepolia");
+    }
+    if (!testnetDeployment && (mode !== "smart-account" || !bundlerUrl)) {
+      throw new Error("production keeper requires REDEEM_MODE=smart-account and BUNDLER_URL");
+    }
     if (process.env.COOKIE_SECURE !== "true") throw new Error("production keeper requires COOKIE_SECURE=true");
     if (!process.env.WEBHOOK_SECRET) throw new Error("production keeper requires WEBHOOK_SECRET");
     if (!process.env.SESSION_SECRET || process.env.SESSION_SECRET.length < 32) throw new Error("production keeper requires SESSION_SECRET with at least 32 characters");
