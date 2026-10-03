@@ -3,7 +3,7 @@ import { NavBar } from "./NavBar";
 import "../src/styles.css";
 
 export const metadata: Metadata = {
-  title: "Tabline: open a tab, not an approval",
+  title: "Tabline",
   description: "Permissioned recurring payments with a spending limit you control.",
 };
 
