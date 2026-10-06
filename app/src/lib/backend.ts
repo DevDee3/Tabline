@@ -1,4 +1,5 @@
 import { Tabline, TablineError, type ChargeView, type PlanView, type SubscriptionView } from "@tabline/sdk";
+import { WALLETCONNECT_PROJECT_ID } from "./env";
 
 export type { ChargeView, PlanView, SubscriptionView };
 export { TablineError };
@@ -39,8 +40,10 @@ export interface EventView {
 export interface Backend {
   readonly demo: boolean;
   connect(): Promise<string>;
+  connectWalletConnect(): Promise<string>;
   connectedAccount(): Promise<string | undefined>;
   merchantLogin(): Promise<string>;
+  merchantLoginWalletConnect(): Promise<string>;
   merchantSession(): Promise<string | undefined>;
   merchantLogout(): Promise<void>;
   plan(id: string): Promise<PlanView>;
@@ -67,7 +70,7 @@ export class HttpBackend implements Backend {
   constructor(
     private readonly apiUrl: string,
   ) {
-    this.sdk = new Tabline({ apiUrl });
+    this.sdk = new Tabline({ apiUrl, walletConnectProjectId: WALLETCONNECT_PROJECT_ID });
   }
 
   private async req<T>(path: string, init: { method?: string; body?: unknown; merchant?: boolean } = {}): Promise<T> {
@@ -93,8 +96,10 @@ export class HttpBackend implements Backend {
   }
 
   connect = () => this.sdk.connect();
+  connectWalletConnect = () => this.sdk.connectWalletConnect();
   connectedAccount = () => this.sdk.connectedAccount();
   merchantLogin = () => this.sdk.merchantLogin();
+  merchantLoginWalletConnect = () => this.sdk.merchantLoginWalletConnect();
   merchantSession = () => this.sdk.merchantSession();
   merchantLogout = async () => { await this.sdk.merchantLogout(); };
   plan = (id: string) => this.sdk.plan(id);

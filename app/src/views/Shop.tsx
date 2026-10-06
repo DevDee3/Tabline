@@ -3,7 +3,7 @@ import Link from "next/link";
 import { defineCheckout, formatUsdc, parseUsdc } from "@tabline/sdk";
 import { DemoNotice, ErrorNote } from "../components/Bits";
 import { Receipt } from "../components/Receipt";
-import { backend, IS_DEMO, KEEPER_API_URL, PLAN_FIXED, PLAN_METERED } from "../lib/env";
+import { backend, IS_DEMO, KEEPER_API_URL, PLAN_FIXED, PLAN_METERED, WALLETCONNECT_PROJECT_ID } from "../lib/env";
 import { useAsync } from "../lib/hooks";
 import type { SubscriptionDetail, SubscriptionView } from "../lib/backend";
 
@@ -135,7 +135,7 @@ export function Shop() {
         </div>
         <div className="embed__live">
           <p className="hint">Live checkout preview</p>
-          <tabline-checkout api-url={KEEPER_API_URL} plan-id={PLAN_FIXED} label="Subscribe with Tabline" />
+          <tabline-checkout api-url={KEEPER_API_URL} plan-id={PLAN_FIXED} label="Subscribe with Tabline" walletconnect-project-id={WALLETCONNECT_PROJECT_ID || undefined} />
         </div>
       </section>
     </div>

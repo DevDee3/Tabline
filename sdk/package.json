@@ -10,7 +10,11 @@
   },
   "dependencies": {
     "@metamask/smart-accounts-kit": "latest",
-    "viem": "latest"
+    "@reown/appkit": "^1.8.24",
+    "@reown/appkit-adapter-wagmi": "^1.8.24",
+    "@walletconnect/ethereum-provider": "^2.25.0",
+    "viem": "latest",
+    "wagmi": "^3.7.7"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

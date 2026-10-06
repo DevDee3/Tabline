@@ -15,6 +15,7 @@ export const PLAN_FIXED = process.env.NEXT_PUBLIC_PLAN_FIXED ?? (IS_DEMO ? "1" :
 export const PLAN_METERED = process.env.NEXT_PUBLIC_PLAN_METERED ?? (IS_DEMO ? "2" : "");
 /** Optional token configured for the currently selected chain. Never default this to a mainnet address. */
 export const TOKEN_ADDRESS = process.env.NEXT_PUBLIC_TOKEN_ADDRESS?.trim() ?? "";
+export const WALLETCONNECT_PROJECT_ID = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID?.trim() ?? "";
 /** For display / building the checkout widget's api-url attribute. */
 export const KEEPER_API_URL = APP_KEEPER_URL ?? "http://localhost:8787";
 

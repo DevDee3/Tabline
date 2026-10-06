@@ -52,7 +52,10 @@ export class TablineCheckout extends HTMLElement {
     this.say("Approve the spending limit in your wallet.");
     try {
       const budgetAttr = this.getAttribute("budget-usdc");
-      const sub: SubscriptionView = await new Tabline({ apiUrl }).subscribe({
+      const sub: SubscriptionView = await new Tabline({
+        apiUrl,
+        walletConnectProjectId: this.getAttribute("walletconnect-project-id") ?? undefined,
+      }).subscribe({
         planId,
         budget: budgetAttr ? parseUsdc(budgetAttr) : undefined,
       });

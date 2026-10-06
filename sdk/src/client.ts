@@ -143,10 +143,15 @@ const erc20MetadataAbi = [
   { type: "function", name: "decimals", stateMutability: "view", inputs: [], outputs: [{ type: "uint8" }] },
 ] as const;
 
+type WalletSelector = Awaited<ReturnType<typeof import("@reown/appkit/core")["createAppKit"]>>;
+const walletSelectors = new Map<string, Promise<WalletSelector>>();
+
 export interface TablineOptions {
   apiUrl: string;
   /** Injected wallet provider; defaults to `window.ethereum`. Override for tests or non-standard wallets. */
   provider?: EIP1193Provider;
+  /** WalletConnect Cloud project ID used when no injected browser wallet is available. */
+  walletConnectProjectId?: string;
   /** How long a newly requested permission is valid for. Default: 1 year. */
   expirySeconds?: number;
   /** Override the fetch implementation used for the underlying API calls. Mainly for tests. */
@@ -171,12 +176,14 @@ export interface SubscribeArgs {
  */
 export class Tabline {
   private readonly client: TablineClient;
-  private readonly provider?: EIP1193Provider;
+  private provider?: EIP1193Provider;
+  private readonly walletConnectProjectId?: string;
   private readonly expirySeconds: number;
   private readonly rpcUrl?: string;
 
   constructor(opts: TablineOptions) {
     this.client = new TablineClient({ baseUrl: opts.apiUrl, fetchImpl: opts.fetchImpl });
+    this.walletConnectProjectId = opts.walletConnectProjectId?.trim() || undefined;
     this.provider = opts.provider ?? (typeof window !== "undefined" ? (window as unknown as { ethereum?: EIP1193Provider }).ethereum : undefined);
     this.expirySeconds = opts.expirySeconds ?? 365 * 24 * 3600;
     if (!Number.isInteger(this.expirySeconds) || this.expirySeconds <= 0) {
@@ -186,25 +193,120 @@ export class Tabline {
   }
 
   private requireProvider(): EIP1193Provider {
-    if (!this.provider) throw new TablineError("no_wallet", "No wallet found. Install MetaMask (v13.23.0 or later) to continue.");
+    if (!this.provider) throw new TablineError("no_wallet", "No wallet is connected. Install a browser wallet or configure WalletConnect for mobile wallets.");
     return this.provider;
+  }
+
+  private async ensureWalletConnectProvider(): Promise<EIP1193Provider> {
+    if (!this.walletConnectProjectId || typeof window === "undefined") {
+      throw new TablineError("wallet_connect", "WalletConnect is not configured for this app.");
+    }
+    try {
+      let selectorPromise = walletSelectors.get(this.walletConnectProjectId);
+      if (!selectorPromise) {
+        selectorPromise = Promise.all([
+          import("@reown/appkit/core"),
+          import("@reown/appkit-adapter-wagmi"),
+        ]).then(([{ createAppKit }, { WagmiAdapter }]) => {
+          const wagmiAdapter = new WagmiAdapter({
+            networks: [arbitrumSepolia, arbitrum],
+            projectId: this.walletConnectProjectId!,
+          });
+          return createAppKit({
+            adapters: [wagmiAdapter],
+            projectId: this.walletConnectProjectId!,
+            networks: [arbitrumSepolia, arbitrum],
+            defaultNetwork: arbitrumSepolia,
+            showWallets: true,
+            metadata: {
+              name: "Tabline",
+              description: "Permissioned recurring payments with spending limits.",
+              url: window.location.origin,
+              icons: [`${window.location.origin}/icon.svg`],
+            },
+            features: {
+              analytics: false,
+              allWallets: true,
+              email: false,
+              socials: false,
+            },
+          });
+        });
+        walletSelectors.set(this.walletConnectProjectId, selectorPromise);
+      }
+      const selector = await selectorPromise;
+      const current = selector.getAccount();
+      if (!current?.isConnected) {
+        await selector.open({ view: "AllWallets" });
+        await new Promise<void>((resolve, reject) => {
+          let finished = false;
+          let unsubscribe: () => void = () => {};
+          let timeout: ReturnType<typeof setTimeout>;
+          const finish = (action: () => void) => {
+            if (finished) return;
+            finished = true;
+            unsubscribe();
+            clearTimeout(timeout);
+            action();
+          };
+          unsubscribe = selector.subscribeAccount((state) => {
+            if (state.isConnected) finish(resolve);
+          }, "eip155");
+          timeout = setTimeout(() => finish(() => reject(new Error("Wallet selection timed out."))), 120_000);
+        });
+      }
+      const provider = (selector.getWalletProvider() ?? selector.getProvider("eip155")) as EIP1193Provider | undefined;
+      if (!provider) throw new Error("WalletConnect connected but did not expose an EVM provider.");
+      return provider;
+    } catch (error) {
+      throw new TablineError("wallet_connect", error instanceof Error ? error.message : "WalletConnect could not connect.");
+    }
+  }
+
+  private async ensureProvider(): Promise<EIP1193Provider> {
+    if (this.provider) return this.provider;
+    const provider = await this.ensureWalletConnectProvider();
+    this.provider = provider;
+    return provider;
+  }
+
+  /** Replaces the active provider so an app-level WalletConnect session can be reused. */
+  setProvider(provider: EIP1193Provider) {
+    this.provider = provider;
+  }
+
+  /** Explicitly opens the WalletConnect modal for mobile or desktop WalletConnect wallets. */
+  async connectWalletConnect(): Promise<Address> {
+    const provider = await this.ensureWalletConnectProvider();
+    this.provider = provider;
+    const accounts = (await provider.request({ method: "eth_accounts" })) as Address[];
+    if (!accounts[0]) throw new TablineError("no_account", "No account was returned by WalletConnect.");
+    return accounts[0];
   }
 
   /** Requests account access and returns the connected address. Doesn't touch the keeper. */
   async connect(): Promise<Address> {
-    const provider = this.requireProvider();
+    // Always open the configured wallet selector first. This keeps one consistent
+    // desktop/mobile flow and lets the user choose MetaMask, Phantom, or another wallet.
+    const provider = this.walletConnectProjectId ? await this.ensureWalletConnectProvider() : this.requireProvider();
+    this.provider = provider;
     const accounts = (await provider.request({ method: "eth_requestAccounts" })) as Address[];
     if (!accounts[0]) throw new TablineError("no_account", "No account was authorized in the wallet.");
     return accounts[0];
   }
 
   async merchantLogin(): Promise<Address> {
-    const provider = this.requireProvider();
+    const provider = this.walletConnectProjectId ? await this.ensureWalletConnectProvider() : this.requireProvider();
+    this.provider = provider;
     const address = await this.connect();
     const { message } = await this.client.authNonce(address);
     const signature = (await (provider.request as (args: { method: string; params: unknown[] }) => Promise<unknown>)({ method: "personal_sign", params: [message, address] })) as `0x${string}`;
     await this.client.authLogin(address, signature);
     return address;
+  }
+
+  async merchantLoginWalletConnect(): Promise<Address> {
+    return this.merchantLogin();
   }
 
   async merchantSession(): Promise<Address | undefined> {
@@ -221,7 +323,7 @@ export class Tabline {
 
   /** Returns an already-authorized wallet account without opening a connection prompt. */
   async connectedAccount(): Promise<Address | undefined> {
-    const provider = this.requireProvider();
+    const provider = await this.ensureProvider();
     const accounts = (await provider.request({ method: "eth_accounts" })) as Address[];
     return accounts[0];
   }

@@ -100,8 +100,10 @@ export class DemoBackend implements Backend {
   private strip = ({ charges: _c, usage: _u, ...rest }: DemoSub): SubscriptionView => rest;
 
   async connect() { return ME; }
+  async connectWalletConnect() { return ME; }
   async connectedAccount() { return ME; }
   async merchantLogin() { return ME; }
+  async merchantLoginWalletConnect() { return ME; }
   async merchantSession() { return ME; }
   async merchantLogout() { return undefined; }
   async plan(id: string) { const p = PLANS[id]; if (!p) throw new TablineError("unknown_plan", `Plan ${id} does not exist.`, 404); return p; }
