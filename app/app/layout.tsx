@@ -5,6 +5,10 @@ import "../src/styles.css";
 export const metadata: Metadata = {
   title: "Tabline",
   description: "Permissioned recurring payments with a spending limit you control.",
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    shortcut: "/icon.svg",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
